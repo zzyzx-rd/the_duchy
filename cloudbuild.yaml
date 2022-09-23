@@ -1,0 +1,15 @@
+steps:
+  - name: node
+    entrypoint: npm
+    args: ['install']
+  - name: node
+    entrypoint: npm
+    args: ['run', 'create-env']
+    env:
+      - 'DATABASE_HOST=${_HOST}'
+      - 'DATABASE_PORT=${_PORT}'
+      - 'DATABASE_USER=${_USERNAME}'
+      - 'DATABASE_PASSWORD=${_PASSWORD}'
+      - 'DATABASE_NAME=${_DATABASE}'
+  - name: 'gcr.io/cloud-builders/gcloud'
+    args: ['app', 'deploy']
