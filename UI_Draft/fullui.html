@@ -1,0 +1,205 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+
+  <meta name="theme-color" content="#fafafa">
+
+</head>
+
+<body>
+
+
+
+
+  <!-- Add your site or application content here -->
+
+
+  <div class="container blur" id="box">
+
+
+    <div class="centered">
+        <div class="progress-value"></div>
+          <div class="full">
+
+<img src="img/logo.jpg" alt="logo" width="270">
+      <h4 class="white center top">How to move</h4>
+<p center>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p> 
+                <button class="button rounded-button">GOT IT!</button>
+</div>
+    </div>
+</div>
+
+<div class="logo" id="ui">
+<img src="img/logo.jpg" alt="logo" width="270">
+</div>
+
+<div class="buttonz" id="ui2">
+  
+                <button class="button round-button"><i class="fa-solid fa-volume-xmark"></i></button>
+                <button class="button round-button"><i class="fa-solid fa-location-dot"></i></i></button>
+                <button class="button round-button"><a href="profile.html"><i class="fa-regular fa-user"></i></a></button>
+
+  
+
+</div>
+
+
+<div class="modal" id="modal">
+<img src="img/holder.jpg" alt="logo" class="rounded">
+<div class="modal-content">
+      <h4 class="white">mmmmmmm</h4>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>             
+<a id="close-button">Got it!</a>
+</div>
+</div>
+
+
+
+
+<div class="chat" id="ui1">
+
+  <div class="bubble fade">
+  <p class="bold">Benji</p>
+<p>Lorem ipsum dolor sit amet</p>             
+</div>
+  
+
+<div class="bubble-right">
+  <p class="bold">Michelle</p>
+<p>Lorem ipsum dolor</p>             
+</div>
+
+<div class="bubble">
+  <p class="bold">Tim</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit 😃😃</p>             
+</div>
+
+            <input class="input enter" type="text" name="" maxlength="" placeholder="Enter text here" id="" data-private="true" value="">
+
+
+
+
+
+
+</div>
+
+
+
+  <script>
+
+
+var modal = document.querySelector("#modal");
+var modalOverlay = document.querySelector("#modal-overlay");
+var closeButton = document.querySelector("#close-button");
+
+closeButton.addEventListener("click", function() {
+  modal.classList.toggle("closed");
+  modalOverlay.classList.toggle("closed");
+
+});
+
+</script>
+
+
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="slick/slick.js" type="text/javascript" charset="utf-8"></script>
+
+
+
+
+  <script>
+
+
+setTimeout(() => {
+  const box = document.getElementById('box');
+
+  box.style.display = 'none';
+
+  box.style.visibility = 'hidden';
+}, 7000);
+
+</script>
+
+
+
+  <script>
+
+
+setTimeout(() => {
+  const box = document.getElementById('ui');
+
+  box.style.display = 'inline-block';
+
+  box.style.visibility = 'visible';
+}, 7000);
+
+</script>
+
+ <script>
+
+
+setTimeout(() => {
+  const box = document.getElementById('ui1');
+
+  box.style.display = 'inline-block';
+
+  box.style.visibility = 'visible';
+}, 7000);
+
+</script>
+
+ <script>
+
+
+setTimeout(() => {
+  const box = document.getElementById('ui2');
+
+  box.style.display = 'inline-block';
+
+  box.style.visibility = 'visible';
+}, 7000);
+
+</script>
+
+ <script>
+
+
+setTimeout(() => {
+  const box = document.getElementById('modal');
+
+  box.style.display = 'inline-block';
+
+  box.style.visibility = 'visible';
+}, 7000);
+
+</script>
+
+
+
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="https://kit.fontawesome.com/a6537ce94a.js" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
